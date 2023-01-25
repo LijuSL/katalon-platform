@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Loading the Application</description>
+   <name>LoadApplication</name>
+   <tag>BVT</tag>
+   <comment></comment>
+   <testCaseGuid>2d07222a-483b-4b0e-90cd-2206d01b72ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>SCRIPT_VARIABLE</type>
+      <value>null</value>
+      <variableId>e8bcff04-0579-46b8-80d9-0a4c8f27ad6d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.G_SiteURL</defaultValue>
+      <description></description>
+      <id>e8bcff04-0579-46b8-80d9-0a4c8f27ad6d</id>
+      <masked>false</masked>
+      <name>applicationURL</name>
+   </variable>
+</TestCaseEntity>
