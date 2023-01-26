@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 titleName=WebUI.getWindowTitle()
 println('This is the Title'+titleName)
-WebUI.verifyMatch(titleName, 'Katalon Shop – Katalon Ecommerce', true)
+WebUI.verifyMatch(titleName, 'Katalon Shop – Katalon Ecommerce', false)
 WebUI.closeBrowser()
 
 
