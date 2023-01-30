@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnStateDropdown</name>
+   <tag></tag>
+   <elementGuidId>fd1b636c-3bb9-46ac-a770-7b5a61e52368</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;billing_state_field&quot;]/span/span/span[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;billing_state_field&quot;]/span/span/span[1]/span</value>
+      <webElementGuid>a62eb367-002d-4a73-9f3d-54a7f193a65c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

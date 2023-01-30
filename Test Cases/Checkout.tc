@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c9f4bca-fe10-4576-b295-08b07f4c87c8</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c876664d-38ce-46ce-a31f-fe3d583617cd</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/checkoutParameters</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c876664d-38ce-46ce-a31f-fe3d583617cd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>FirstName</value>
+      <variableId>8cb4ebb7-c49f-4431-9a0a-0612167fd736</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('checkoutParameters')</defaultValue>
+      <description></description>
+      <id>8cb4ebb7-c49f-4431-9a0a-0612167fd736</id>
+      <masked>false</masked>
+      <name>FName</name>
+   </variable>
+</TestCaseEntity>

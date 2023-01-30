@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Loading the Application</description>
-   <name>LoadApplication</name>
+   <name>VerifyApplicationTitle</name>
    <tag>BVT</tag>
    <comment></comment>
    <testCaseGuid>2d07222a-483b-4b0e-90cd-2206d01b72ea</testCaseGuid>
@@ -11,11 +11,24 @@
       <value>null</value>
       <variableId>e8bcff04-0579-46b8-80d9-0a4c8f27ad6d</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c24a2d0-522d-4d9c-90c6-b02a0e389296</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.G_SiteURL</defaultValue>
       <description></description>
       <id>e8bcff04-0579-46b8-80d9-0a4c8f27ad6d</id>
       <masked>false</masked>
       <name>applicationURL</name>
+   </variable>
+   <variable>
+      <defaultValue>'Katalon Shop – Katalon Ecommerc'</defaultValue>
+      <description></description>
+      <id>2c24a2d0-522d-4d9c-90c6-b02a0e389296</id>
+      <masked>false</masked>
+      <name>ExpectedTitle</name>
    </variable>
 </TestCaseEntity>

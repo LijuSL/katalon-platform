@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnCheckout</name>
+   <tag></tag>
+   <elementGuidId>8b186546-e3ad-4c43-ab32-2816ee429eb9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;primary-menu&quot;]/ul/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;primary-menu&quot;]/ul/li[2]/a</value>
+      <webElementGuid>e2a4b5c2-0912-48ca-9f0c-2f43bf049e92</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -16,13 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import homePage.HomePageActions as HomePageActions
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
-titleName=WebUI.getWindowTitle()
-println('This is the Title'+titleName)
-WebUI.verifyMatch(titleName, 'Katalon Shop – Katalon Ecommerce', true)
-WebUI.closeBrowser()
-
-
+/*
+ * VerifyMatch between Expected Application Title and Title returned from Browser.
+ * ExpectedTitle:- Katalon Shop – Katalon Ecommerce
+ */
+WebUI.verifyMatch(CustomKeywords.'homePage.HomePageActions.getWindowTitle'(), ExpectedTitle, true, FailureHandling.CONTINUE_ON_FAILURE)
 
