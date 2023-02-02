@@ -25,7 +25,7 @@
       <name>applicationURL</name>
    </variable>
    <variable>
-      <defaultValue>'Katalon Shop – Katalon Ecommerc'</defaultValue>
+      <defaultValue>'Katalon Shop – Katalon Ecommerce'</defaultValue>
       <description></description>
       <id>2c24a2d0-522d-4d9c-90c6-b02a0e389296</id>
       <masked>false</masked>
